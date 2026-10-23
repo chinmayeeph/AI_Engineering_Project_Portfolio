@@ -218,3 +218,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local environment and secrets
+.env.*
+!.env.example
+!.env.sample
+
+# Python environments and notebook checkpoints
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local credentials and application secrets
+.streamlit/secrets.toml
+secrets.json
+credentials.json
+service-account*.json
+
+# Generated data and model artifacts (review before using)
+data/raw/*
+!data/raw/README.md
+*.joblib
+*.pkl
+*.pth
+*.pt
+*.onnx
+
+# Local databases
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
